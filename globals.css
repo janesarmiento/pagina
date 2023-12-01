@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+h4, p{
+    font-size: 14px;
+}
+
+:root{
+    /* COLOR */
+    --color-primario: #8e6dfb;
+    --color-secundario: #ff9cfc;
+    --color-bg: #FAFAFA;
+    --color-font: #0B0B0B;
+    /* BOX-SHADOWS */
+    --shadow: 2px 2px 10px #0B0B0B;
+    /* TYPOGRAPHY */
+    --font: ;  
+    /* SWIPER */
+    --swiper-theme-color: var(--color-primario);
+}
+
+
+
+
+.rectangulo {
+    height: 76px;
+    width: 100%;
+    background-color: antiquewhite;
+    border: groove 0px pink;
+}
+.menuhamburguesa {
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    border: groove 1px pink;
+    display: inline;
+}
+.carrito {
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    border: groove 1px pink;
+}
+.perfil {
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    border: groove 1px pink;
+}
+
+
+
+
+
+.presentacion {
+    height: 469px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    border: groove 6px pink;
+}
+
+
+
+
+/* CATEGORIA */
+
+.categoria{
+    display: flex;
+    margin: 32px auto;
+    justify-content: center;
+    max-width: 720px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.categoria-card{
+    height: 280px;
+    width: 350px;
+    border: groove 6px pink;
+}
+ /* CARRUSEL SWIPER */
+.swiper {
+    width: 500px;
+    height: 500px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
